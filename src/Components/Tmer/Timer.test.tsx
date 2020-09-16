@@ -1,5 +1,5 @@
 import React from "react"
-import { shallow, ShallowWrapper, mount, ReactWrapper } from "enzyme"
+import { shallow, ShallowWrapper, mount} from "enzyme"
 import Timer from "./Timer"
 
 describe("Timer", () => {

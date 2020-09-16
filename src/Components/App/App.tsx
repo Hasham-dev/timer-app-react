@@ -2,7 +2,6 @@ import { Container } from '@material-ui/core';
 import React from 'react';
 import Timer from '../Tmer/Timer'
 import CssBaseline from '@material-ui/core/CssBaseline';
-import Typography from '@material-ui/core/Typography';
 import "./App.css"
 function App() {
   return (

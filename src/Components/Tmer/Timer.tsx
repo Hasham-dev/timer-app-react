@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import TimerButton from '../../TimerButton/TimerButton';
 import { Typography } from '@material-ui/core';
 

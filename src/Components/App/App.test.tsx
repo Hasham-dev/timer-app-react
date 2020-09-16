@@ -9,8 +9,5 @@ describe('App', () => {
     expect(container.find('div').length).toEqual(1);
   });
 
-it('should render the Timer Component',()=>{
-	expect(container.containsMatchingElement(<Timer />)).toEqual(true)
-})
 
 });
