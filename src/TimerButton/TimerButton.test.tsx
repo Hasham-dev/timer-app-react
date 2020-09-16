@@ -1,9 +1,10 @@
 import React from "react"
-import { shallow,ShallowWrapper } from "enzyme"
+import { mount, ReactWrapper, shallow,ShallowWrapper } from "enzyme"
 import TimerButton from "./TimerButton"
+import Timer from "../Components/Tmer/Timer"
 
 describe("TimerButton", () => {
-  let container:ShallowWrapper<Readonly<{}> & Readonly<any>, Readonly<{}>, React.Component<{}, {}, any>>
+  let container: ShallowWrapper<any, Readonly<{}>, React.Component<{}, {}, any>>;
 
 
   beforeEach(() => {
